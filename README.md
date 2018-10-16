@@ -1,5 +1,5 @@
 # Getting and Cleaning Data Course Project
-This repository contains the final course project for the Getting and Cleaning Data course on Coursera. It is meant to demonstrate our ability to collect, work with, and clean data with the use of an R script called run_analysis.R that does the following:
+This repository contains the final course project for the Getting and Cleaning Data course on Coursera. It is meant to demonstrate our ability to collect, work with, and clean data with the use of an R script called `run_analysis.R` that does the following:
 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement.
