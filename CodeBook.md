@@ -44,6 +44,8 @@ There are two domains of signals which the measurements fall under:
 - Time domain signals whose measurements have been captured by the accelerometer and gyroscope. These were originally denoted by the prefix `t` to denote time.
 - Frequency domain signals whose measurements resulted from applying a FFT (Fast Fourier Transform) to some of the `t` signals. These were originally denoted by the prefix `f` to denote frequency. 
 
+The following are the various variable measurements which the data set recorded based on the identifiers of `subject` and `activity`
+
   - tBodyAcc-XYZ
   - tGravityAcc-XYZ
   - tBodyAccJerk-XYZ
