@@ -21,16 +21,90 @@ The data sets provided have been organized and combined into a single data set w
 
 ### Identifiers
 
-The columns pertaining to `subject` and `activity` in the dataset were used to classify the various measurements that were taken.
+These two columns pertaining to `subject` and `activity` in each row of data in the dataset were used to classify the various measurements that were taken.
+
 - `subject`
   Used to identify which subject was having measurements taken (1-30, out of 30 participants)
 - `activity`
   Used to identify which of the 6 activities the subject was undertaking while having his/her measurements taken (self descriptive)
+  
   - `WALKING`
   - `WALKING_UPSTAIRS`
   - `WALKING_DOWNSTAIRS`
   - `SITTING`
   - `STANDING`
   - `LAYING`
+  
+  ### Measurements
+  
+  These are the remaining columns in each row of data that describe the measurements taken for `subject` and `activity` in 3-axial signals in the X, Y, and Z directions. 
+- `TimeBodyAccelerometerMean`
+  - TimeBodyAccelerometerMeanX
+  - TimeBodyAccelerometerMeanY
+  - TimeBodyAccelerometerMeanZ
+  
+TimeGravityAccelerometerMeanX
+TimeGravityAccelerometerMeanY
+TimeGravityAccelerometerMeanZ
+TimeBodyAccelerometerJerkMeanX
+TimeBodyAccelerometerJerkMeanY
+TimeBodyAccelerometerJerkMeanZ
+TimeBodyGyroscopeMeanX
+TimeBodyGyroscopeMeanY
+TimeBodyGyroscopeMeanZ
+TimeBodyGyroscopeJerkMeanX
+TimeBodyGyroscopeJerkMeanY
+TimeBodyGyroscopeJerkMeanZ
+TimeBodyAccelerometerMagnitudeMean
+TimeGravityAccelerometerMagnitudeMean
+TimeBodyAccelerometerJerkMagnitudeMean
+TimeBodyGyroscopeMagnitudeMean
+TimeBodyGyroscopeJerkMagnitudeMean
+FrequencyBodyAccelerometerMeanX
+FrequencyBodyAccelerometerMeanY
+FrequencyBodyAccelerometerMeanZ
+FrequencyBodyAccelerometerJerkMeanX
+FrequencyBodyAccelerometerJerkMeanY
+FrequencyBodyAccelerometerJerkMeanZ
+FrequencyBodyGyroscopeMeanX
+FrequencyBodyGyroscopeMeanY
+FrequencyBodyGyroscopeMeanZ
+FrequencyBodyAccelerometerMagnitudeMean
+FrequencyBodyAccelerometerJerkMagnitudeMean
+FrequencyBodyGyroscopeMagnitudeMean
+FrequencyBodyGyroscopeJerkMagnitudeMean
+TimeBodyAccelerometerStdX
+TimeBodyAccelerometerStdY
+TimeBodyAccelerometerStdZ
+TimeGravityAccelerometerStdX
+TimeGravityAccelerometerStdY
+TimeGravityAccelerometerStdZ
+TimeBodyAccelerometerJerkStdX
+TimeBodyAccelerometerJerkStdY
+TimeBodyAccelerometerJerkStdZ
+TimeBodyGyroscopeStdX
+TimeBodyGyroscopeStdY
+TimeBodyGyroscopeStdZ
+TimeBodyGyroscopeJerkStdX
+TimeBodyGyroscopeJerkStdY
+TimeBodyGyroscopeJerkStdZ
+TimeBodyAccelerometerMagnitudeStd
+TimeGravityAccelerometerMagnitudeStd
+TimeBodyAccelerometerJerkMagnitudeStd
+TimeBodyGyroscopeMagnitudeStd
+TimeBodyGyroscopeJerkMagnitudeStd
+FrequencyBodyAccelerometerStdX
+FrequencyBodyAccelerometerStdY
+FrequencyBodyAccelerometerStdZ
+FrequencyBodyAccelerometerJerkStdX
+FrequencyBodyAccelerometerJerkStdY
+FrequencyBodyAccelerometerJerkStdZ
+FrequencyBodyGyroscopeStdX
+FrequencyBodyGyroscopeStdY
+FrequencyBodyGyroscopeStdZ
+FrequencyBodyAccelerometerMagnitudeStd
+FrequencyBodyAccelerometerJerkMagnitudeStd
+FrequencyBodyGyroscopeMagnitudeStd
+FrequencyBodyGyroscopeJerkMagnitudeStd
   
   
