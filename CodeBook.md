@@ -43,3 +43,5 @@ There are two domains of signals which the measurements fall under
 - Time domain signals (prefixed by `timeDomain` in the name) whose measurements have been captured by the accelerometer and gyroscope
 - Frequency domain signals (prefixed by `frequencyDomain`) whose measurements resulted from applying a FFT (Fast Fourier Transform) to some of the `timeDomain` signals.
 
+#### `timeDomain` signals
+
