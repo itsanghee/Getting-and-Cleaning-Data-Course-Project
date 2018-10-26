@@ -39,91 +39,31 @@ These two columns pertaining to `subject` and `activity` in each row of data in 
   
 These are the remaining columns in each row of data that describe the measurements taken for `subject` and `activity` in 3-axial signals in the X, Y, and Z directions. 
 
-There are two domains of signals which the measurements fall under
-- Time domain signals (prefixed by `timeDomain` in the name) whose measurements have been captured by the accelerometer and gyroscope
-- Frequency domain signals (prefixed by `frequencyDomain`) whose measurements resulted from applying a FFT (Fast Fourier Transform) to some of the `timeDomain` signals.
+There are two domains of signals which the measurements fall under:
 
-#### timeDomain signals
+- Time domain signals whose measurements have been captured by the accelerometer and gyroscope. These were originally denoted by the prefix `t` to denote time.
+- Frequency domain signals whose measurements resulted from applying a FFT (Fast Fourier Transform) to some of the `t` signals. These were originally denoted by the prefix `f` to denote frequency. 
 
-- timeDomainBodyAccelerometerMeanX
-- timeDomainBodyAccelerometerMeanY
-- timeDomainBodyAccelerometerMeanZ
-- timeDomainBodyAccelerometerStandardDeviationX
-- timeDomainBodyAccelerometerStandardDeviationY
-- timeDomainBodyAccelerometerStandardDeviationZ
-- timeDomainGravityAccelerometerMeanX
-- timeDomainGravityAccelerometerMeanY
-- timeDomainGravityAccelerometerMeanZ
-- timeDomainGravityAccelerometerStandardDeviationX
-- timeDomainGravityAccelerometerStandardDeviationY
-- timeDomainGravityAccelerometerStandardDeviationZ
-- timeDomainBodyAccelerometerJerkMeanX
-- timeDomainBodyAccelerometerJerkMeanY
-- timeDomainBodyAccelerometerJerkMeanZ
-- timeDomainBodyAccelerometerJerkStandardDeviationX
-- timeDomainBodyAccelerometerJerkStandardDeviationY
-- timeDomainBodyAccelerometerJerkStandardDeviationZ
-- timeDomainBodyGyroscopeMeanX
-- timeDomainBodyGyroscopeMeanY
-- timeDomainBodyGyroscopeMeanZ
-- timeDomainBodyGyroscopeStandardDeviationX
-- timeDomainBodyGyroscopeStandardDeviationY
-- timeDomainBodyGyroscopeStandardDeviationZ
-- timeDomainBodyGyroscopeJerkMeanX
-- timeDomainBodyGyroscopeJerkMeanY
-- timeDomainBodyGyroscopeJerkMeanZ
-- timeDomainBodyGyroscopeJerkStandardDeviationX
-- timeDomainBodyGyroscopeJerkStandardDeviationY
-- timeDomainBodyGyroscopeJerkStandardDeviationZ
-- timeDomainBodyAccelerometerMagnitudeMean
-- timeDomainBodyAccelerometerMagnitudeStandardDeviation
-- timeDomainGravityAccelerometerMagnitudeMean
-- timeDomainGravityAccelerometerMagnitudeStandardDeviation
-- timeDomainBodyAccelerometerJerkMagnitudeMean
-- timeDomainBodyAccelerometerJerkMagnitudeStandardDeviation
-- timeDomainBodyGyroscopeMagnitudeMean
-- timeDomainBodyGyroscopeMagnitudeStandardDeviation
-- timeDomainBodyGyroscopeJerkMagnitudeMean
-- timeDomainBodyGyroscopeJerkMagnitudeStandardDeviation
+- tBodyAcc-XYZ
+- tGravityAcc-XYZ
+- tBodyAccJerk-XYZ
+- tBodyGyro-XYZ
+- tBodyGyroJerk-XYZ
+- tBodyAccMag
+- tGravityAccMag
+- tBodyAccJerkMag
+- tBodyGyroMag
+- tBodyGyroJerkMag
+- fBodyAcc-XYZ
+- fBodyAccJerk-XYZ
+- fBodyGyro-XYZ
+- fBodyAccMag
+- fBodyAccJerkMag
+- fBodyGyroMag
+- fBodyGyroJerkMag
+- gravityMean
+- tBodyAccMean
+- tBodyAccJerkMean
+- tBodyGyroMean
+- tBodyGyroJerkMean
 
-#### frequencyDomain Signals
-
-- frequencyDomainBodyAccelerometerMeanX
-- frequencyDomainBodyAccelerometerMeanY
-- frequencyDomainBodyAccelerometerMeanZ
-- frequencyDomainBodyAccelerometerStandardDeviationX
-- frequencyDomainBodyAccelerometerStandardDeviationY
-- frequencyDomainBodyAccelerometerStandardDeviationZ
-- frequencyDomainBodyAccelerometerMeanFrequencyX
-- frequencyDomainBodyAccelerometerMeanFrequencyY
-- frequencyDomainBodyAccelerometerMeanFrequencyZ
-- frequencyDomainBodyAccelerometerJerkMeanX
-- frequencyDomainBodyAccelerometerJerkMeanY
-- frequencyDomainBodyAccelerometerJerkMeanZ
-- frequencyDomainBodyAccelerometerJerkStandardDeviationX
-- frequencyDomainBodyAccelerometerJerkStandardDeviationY
-- frequencyDomainBodyAccelerometerJerkStandardDeviationZ
-- frequencyDomainBodyAccelerometerJerkMeanFrequencyX
-- frequencyDomainBodyAccelerometerJerkMeanFrequencyY
-- frequencyDomainBodyAccelerometerJerkMeanFrequencyZ
-- frequencyDomainBodyGyroscopeMeanX
-- frequencyDomainBodyGyroscopeMeanY
-- frequencyDomainBodyGyroscopeMeanZ
-- frequencyDomainBodyGyroscopeStandardDeviationX
-- frequencyDomainBodyGyroscopeStandardDeviationY
-- frequencyDomainBodyGyroscopeStandardDeviationZ
-- frequencyDomainBodyGyroscopeMeanFrequencyX
-- frequencyDomainBodyGyroscopeMeanFrequencyY
-- frequencyDomainBodyGyroscopeMeanFrequencyZ
-- frequencyDomainBodyAccelerometerMagnitudeMean
-- frequencyDomainBodyAccelerometerMagnitudeStandardDeviation
-- frequencyDomainBodyAccelerometerMagnitudeMeanFrequency
-- frequencyDomainBodyAccelerometerJerkMagnitudeMean
-- frequencyDomainBodyAccelerometerJerkMagnitudeStandardDeviation
-- frequencyDomainBodyAccelerometerJerkMagnitudeMeanFrequency
-- frequencyDomainBodyGyroscopeMagnitudeMean
-- frequencyDomainBodyGyroscopeMagnitudeStandardDeviation
-- frequencyDomainBodyGyroscopeMagnitudeMeanFrequency
-- frequencyDomainBodyGyroscopeJerkMagnitudeMean
-- frequencyDomainBodyGyroscopeJerkMagnitudeStandardDeviation
-- frequencyDomainBodyGyroscopeJerkMagnitudeMeanFrequency
