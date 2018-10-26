@@ -35,76 +35,11 @@ These two columns pertaining to `subject` and `activity` in each row of data in 
   - `STANDING`
   - `LAYING`
   
-  ### Measurements
+### Measurements
   
-  These are the remaining columns in each row of data that describe the measurements taken for `subject` and `activity` in 3-axial signals in the X, Y, and Z directions. 
-- `TimeBodyAccelerometerMean`
-  - TimeBodyAccelerometerMeanX
-  - TimeBodyAccelerometerMeanY
-  - TimeBodyAccelerometerMeanZ
-  
-TimeGravityAccelerometerMeanX
-TimeGravityAccelerometerMeanY
-TimeGravityAccelerometerMeanZ
-TimeBodyAccelerometerJerkMeanX
-TimeBodyAccelerometerJerkMeanY
-TimeBodyAccelerometerJerkMeanZ
-TimeBodyGyroscopeMeanX
-TimeBodyGyroscopeMeanY
-TimeBodyGyroscopeMeanZ
-TimeBodyGyroscopeJerkMeanX
-TimeBodyGyroscopeJerkMeanY
-TimeBodyGyroscopeJerkMeanZ
-TimeBodyAccelerometerMagnitudeMean
-TimeGravityAccelerometerMagnitudeMean
-TimeBodyAccelerometerJerkMagnitudeMean
-TimeBodyGyroscopeMagnitudeMean
-TimeBodyGyroscopeJerkMagnitudeMean
-FrequencyBodyAccelerometerMeanX
-FrequencyBodyAccelerometerMeanY
-FrequencyBodyAccelerometerMeanZ
-FrequencyBodyAccelerometerJerkMeanX
-FrequencyBodyAccelerometerJerkMeanY
-FrequencyBodyAccelerometerJerkMeanZ
-FrequencyBodyGyroscopeMeanX
-FrequencyBodyGyroscopeMeanY
-FrequencyBodyGyroscopeMeanZ
-FrequencyBodyAccelerometerMagnitudeMean
-FrequencyBodyAccelerometerJerkMagnitudeMean
-FrequencyBodyGyroscopeMagnitudeMean
-FrequencyBodyGyroscopeJerkMagnitudeMean
-TimeBodyAccelerometerStdX
-TimeBodyAccelerometerStdY
-TimeBodyAccelerometerStdZ
-TimeGravityAccelerometerStdX
-TimeGravityAccelerometerStdY
-TimeGravityAccelerometerStdZ
-TimeBodyAccelerometerJerkStdX
-TimeBodyAccelerometerJerkStdY
-TimeBodyAccelerometerJerkStdZ
-TimeBodyGyroscopeStdX
-TimeBodyGyroscopeStdY
-TimeBodyGyroscopeStdZ
-TimeBodyGyroscopeJerkStdX
-TimeBodyGyroscopeJerkStdY
-TimeBodyGyroscopeJerkStdZ
-TimeBodyAccelerometerMagnitudeStd
-TimeGravityAccelerometerMagnitudeStd
-TimeBodyAccelerometerJerkMagnitudeStd
-TimeBodyGyroscopeMagnitudeStd
-TimeBodyGyroscopeJerkMagnitudeStd
-FrequencyBodyAccelerometerStdX
-FrequencyBodyAccelerometerStdY
-FrequencyBodyAccelerometerStdZ
-FrequencyBodyAccelerometerJerkStdX
-FrequencyBodyAccelerometerJerkStdY
-FrequencyBodyAccelerometerJerkStdZ
-FrequencyBodyGyroscopeStdX
-FrequencyBodyGyroscopeStdY
-FrequencyBodyGyroscopeStdZ
-FrequencyBodyAccelerometerMagnitudeStd
-FrequencyBodyAccelerometerJerkMagnitudeStd
-FrequencyBodyGyroscopeMagnitudeStd
-FrequencyBodyGyroscopeJerkMagnitudeStd
-  
-  
+These are the remaining columns in each row of data that describe the measurements taken for `subject` and `activity` in 3-axial signals in the X, Y, and Z directions. 
+
+There are two domains of signals which the measurements fall under
+- Time domain signals (prefixed by `timeDomain` in the name) whose measurements have been captured by the accelerometer and gyroscope
+- Frequency domain signals (prefixed by `frequencyDomain`) whose measurements resulted from applying a FFT (Fast Fourier Transform) to some of the `timeDomain` signals.
+
