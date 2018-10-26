@@ -44,26 +44,26 @@ There are two domains of signals which the measurements fall under:
 - Time domain signals whose measurements have been captured by the accelerometer and gyroscope. These were originally denoted by the prefix `t` to denote time.
 - Frequency domain signals whose measurements resulted from applying a FFT (Fast Fourier Transform) to some of the `t` signals. These were originally denoted by the prefix `f` to denote frequency. 
 
-- tBodyAcc-XYZ
-- tGravityAcc-XYZ
-- tBodyAccJerk-XYZ
-- tBodyGyro-XYZ
-- tBodyGyroJerk-XYZ
-- tBodyAccMag
-- tGravityAccMag
-- tBodyAccJerkMag
-- tBodyGyroMag
-- tBodyGyroJerkMag
-- fBodyAcc-XYZ
-- fBodyAccJerk-XYZ
-- fBodyGyro-XYZ
-- fBodyAccMag
-- fBodyAccJerkMag
-- fBodyGyroMag
-- fBodyGyroJerkMag
-- gravityMean
-- tBodyAccMean
-- tBodyAccJerkMean
-- tBodyGyroMean
-- tBodyGyroJerkMean
+  - tBodyAcc-XYZ
+  - tGravityAcc-XYZ
+  - tBodyAccJerk-XYZ
+  - tBodyGyro-XYZ
+  - tBodyGyroJerk-XYZ
+  - tBodyAccMag
+  - tGravityAccMag
+  - tBodyAccJerkMag
+  - tBodyGyroMag
+  - tBodyGyroJerkMag
+  - fBodyAcc-XYZ
+  - fBodyAccJerk-XYZ
+  - fBodyGyro-XYZ
+  - fBodyAccMag
+  - fBodyAccJerkMag
+  - fBodyGyroMag
+  - fBodyGyroJerkMag
+  - gravityMean
+  - tBodyAccMean
+  - tBodyAccJerkMean
+  - tBodyGyroMean
+  - tBodyGyroJerkMean
 
