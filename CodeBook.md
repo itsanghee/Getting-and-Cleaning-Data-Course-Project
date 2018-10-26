@@ -1,4 +1,4 @@
-#CodeBook for Getting and Cleaning Data Course Project
+# CodeBook for Getting and Cleaning Data Course Project
 This is the codebook for my Getting and Cleaning Data Course Project. In order to make the best use of this file, you will have to download
 the source data and run the R script `run_analysis.R`
 
@@ -10,5 +10,5 @@ where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 
-##Source Data
+## Source Data
 The source data which is 
