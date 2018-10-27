@@ -69,3 +69,17 @@ The following are the various variable measurements which the data set recorded 
   - tBodyGyroMean
   - tBodyGyroJerkMean
 
+## Transformations
+
+1. We merged the training and test sets to create a single data set.
+2. We extracted only the measurements of mean and standard deviation for each measurement pertaining to `activity` and `subject`
+3. We used descriptive activity names to name the activities in the data set.
+4. We labeled the data set with descriptive variable names
+  - `Acc` replaced with `Accelerometer`
+  - `Gyro` replaced with `Gyroscope`
+  - `Mag` replaced with `Magnitude`
+  - `f` replaced with `Frequency` 
+  - `t` replaced with `Time`
+  - `tBody` replaced with `TimeBody`
+5. We created an independent tidy data set with the average of each variable for each activity and each subject in `tidy.txt`
+
